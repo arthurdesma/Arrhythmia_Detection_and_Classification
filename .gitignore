@@ -154,7 +154,10 @@ cython_debug/
 
 #data 
 data_creation/
+ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.1/
 
+# vs
+.vscode/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
