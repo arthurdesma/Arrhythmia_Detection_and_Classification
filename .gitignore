@@ -154,7 +154,7 @@ cython_debug/
 
 #data 
 data_creation/
-
+data_mit_l/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
