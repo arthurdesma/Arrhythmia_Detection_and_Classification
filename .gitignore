@@ -155,8 +155,10 @@ cython_debug/
 #data 
 data_creation/
 data_mit_l/
+df_fusionné.csv
 # vs
 .vscode/
+
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
