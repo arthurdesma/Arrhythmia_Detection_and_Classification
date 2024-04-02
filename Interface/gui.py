@@ -10,10 +10,13 @@ from gui1 import start_gui
 # Explicit imports to satisfy Flake8
 import subprocess
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage, filedialog
+from pathlib import Path
 
-
+# Chemin de sortie du script
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\paulg\Documents\GitHub\Tkinter-Designer\build\assets\frame0")
+
+# Chemin relatif vers le dossier des ressources (assets)
+ASSETS_PATH = OUTPUT_PATH / "assets" / "frame0"
 
 
 def relative_to_assets(path: str) -> Path:
@@ -25,8 +28,8 @@ def select_file():
     if file_path:
         print("Chemin du fichier sélectionné:", file_path)
         window.destroy()  # Fermer la fenêtre après la sélection du fichier
-        subprocess.run(["python", "gui1.py", file_path])  # Passer le chemin du fichier comme argument
-
+        #subprocess.run(["python", "gui1.py", file_path])  # Passer le chemin du fichier comme argument
+        subprocess.run(["python", "gui1.py", file_path])
 
 window = Tk()
 
