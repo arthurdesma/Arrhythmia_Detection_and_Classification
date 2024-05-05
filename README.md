@@ -27,7 +27,6 @@ This project aims to identify irregularities in electrocardiogram (ECG) data usi
 - [Ethics](#ethics)
 - [Conclusion](#conclusion)
   - [Future Work](#future-work)
-- [References](#references)
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
@@ -108,9 +107,6 @@ Potential future improvements include:
 - Further developing the user interface with more robust tools
 - Tailoring the application to specific healthcare roles
 - Conducting user studies to evaluate the tool's effectiveness and usability
-
-## References
-[List of references used in the project]
 
 ## Acknowledgments
 The team extends their gratitude to Prof. Adrien UGON for his invaluable support and guidance throughout the project, and to ESIEE Paris for facilitating this meaningful learning experience.
